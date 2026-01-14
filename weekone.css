@@ -1,0 +1,69 @@
+.demoone{
+    color: red;
+    border: 2px solid black;
+    width: 40%;
+    font-size: 30px;
+}
+.demotwo{
+    color: blue;
+    border: 2px solid black;
+    width: 40%;
+    font-size: 30px;
+    margin-top: 4px;
+}
+.demothree{
+    color: rgb(243, 218, 31);
+    border: 2px solid black;
+    width: 40%;
+    font-size: 30px;
+    margin-top: 4px;
+}
+.demofour{
+    color:rgb(247, 152, 168) ;
+    border: 2px solid black;
+    width: 40%;
+    font-size: 30px;
+    margin-top: 4px;
+}
+.demofive{
+     color:rgb(65, 184, 164) ;
+    border: 2px solid black;
+    width: 40%;
+    font-size: 30px;
+    margin-top: 4px;
+}
+.demosix{
+     color:rgb(27, 45, 205) ;
+    border: 2px solid black;
+    width: 40%;
+    font-size: 30px;
+    margin-top: 4px;
+}
+.demoseven{
+     color:rgb(200, 214, 39) ;
+    border: 2px solid black;
+    width: 40%;
+    font-size: 30px;
+    margin-top: 4px;
+}
+.demoeight{
+     color:blueviolet ;
+    border: 2px solid black;
+    width: 40%;
+    font-size: 30px;
+    margin-top: 4px;
+}
+.demonine{
+     color:red ;
+    border: 2px solid black;
+    width: 40%;
+    font-size: 30px;
+    margin-top: 4px;
+}
+.demoten{
+     color:blue ;
+    border: 2px solid black;
+    width: 40%;
+    font-size: 30px;
+    margin-top: 4px;
+}
