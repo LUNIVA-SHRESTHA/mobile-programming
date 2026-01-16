@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grades</title>
+    <link rel="stylesheet" href="marks.css">
+</head>
+<body>
+    <h1>Student Grades</h1>
+    
+    <div class="form">
+        <label>English: <input type="number" id="subject1" min="0" max="100"></label>
+        <label>Mathematics: <input type="number" id="subject2" min="0" max="100"></label>
+        <label>Science: <input type="number" id="subject3" min="0" max="100"></label>
+        <label>History: <input type="number" id="subject4" min="0" max="100"></label>
+        <label>Geography: <input type="number" id="subject5" min="0" max="100"></label>
+        <label>Chemistry: <input type="number" id="subject6" min="0" max="100"></label>
+        <label>Physics: <input type="number" id="subject7" min="0" max="100"></label>
+        <label>Biology: <input type="number" id="subject8" min="0" max="100"></label>
+        <label>Computer Science: <input type="number" id="subject9" min="0" max="100"></label>
+        <label>Physical Education: <input type="number" id="subject10" min="0" max="100"></label>
+    </div>
+
+    <div class="buttons">
+        <button onclick="calculateGrades()">Calculate</button>
+        <button onclick="clearForm()">Clear</button>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="marks.js"></script>
+</body>
+</html>

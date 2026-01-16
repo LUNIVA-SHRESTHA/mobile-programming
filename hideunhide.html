@@ -1,0 +1,22 @@
+<head>
+    <title>Hide and Unhide Sections</title>
+</head>
+<body>
+    <h1>Hide and Unhide Sections Example</h1>
+
+    <button onclick="toggleVisibility('section')">Hide</button>
+    <div id="section" style="display:block; margin-top:10px;">
+        <h2>I am studying Bsc.IT</h2>
+        <p>Presidential Graduate School</p>
+    </div>
+
+    <script>
+        function toggleVisibility(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section.style.display === "none") {
+                section.style.display = "block";
+            } else {
+                section.style.display = "none";
+            }
+        }
+    </script>
