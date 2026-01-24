@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssproperty.css">
+    <title>CSS Property</title>
+</head>
+<body>
+   
+    <div class="container" id="box1"> A</div>
+    <div class="container" id="box2">B</div>
+    <div class="container" id="box3">C</div>
+    <div class="container" id="box4">D</div>
+
+
+    <script>
+        const boxes = document.querySelectorAll('.container');
+
+        boxes.forEach(box => {
+            box.addEventListener('click', function() {
+                this.classList.add('clicked');
+            });
+
+            box.addEventListener('dblclick', function() {
+                this.classList.toggle('double-clicked');
+            });
+
+            box.addEventListener('mouseleave', function() {
+                this.classList.add('mouse-leave');
+            });
+
+            box.addEventListener('mouseenter', function() {
+                this.classList.remove('mouse-leave');
+            });
+        });
+    </script>
+</body>
+</html>

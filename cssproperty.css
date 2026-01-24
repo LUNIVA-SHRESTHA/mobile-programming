@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 250px;
+    height: 250px;
+    background-color: #bf2020;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ 
+}
+
+.container.clicked {
+    background-color: #4ECDC4;
+    transform: scale(1.1);
+}
+
+.container.double-clicked {
+    background-color: #FFD93D;
+    transform: rotate(45deg);
+}
+
+.container.mouse-leave {
+    background-color: #95E1D3;
+    border-radius: 50%;
+}
