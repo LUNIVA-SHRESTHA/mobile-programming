@@ -4,7 +4,9 @@
     <link rel="stylesheet" href="shuffle.css">
 </head>
 <body>
+    <p class="heading"> Click the box to shuffle</p>
     <button onclick="shuffle()" class="shuffle">Shuffle</button>
+
     <div class="boxes">
         <div class="box">1</div>
         <div class="box">2</div>
@@ -12,12 +14,14 @@
         <div class="box">4</div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         function shuffle() {
             const colors = ['orange', 'blue', 'red', 'green'];
-            const boxes = document.querySelectorAll('.box');
             const shuffled = [...colors].sort(() => Math.random() - 0.5);
-            boxes.forEach((box, i) => box.style.backgroundColor = shuffled[i]);
+            $('.box').each(function(i) {
+                $(this).css('backgroundColor', shuffled[i]);
+            });
         }
     </script>
 </body>

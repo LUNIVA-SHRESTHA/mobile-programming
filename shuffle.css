@@ -7,6 +7,9 @@ body {
     height: 100vh;
     background: #f0f0f0;
 }
+.heading{
+    font-size: 60px;
+}
 .shuffle{
     height: 300px;
     width: 300px;
@@ -37,5 +40,4 @@ button {
     color: white;
     border-radius: 8px;
     transition: 0.3s;
-
 }
