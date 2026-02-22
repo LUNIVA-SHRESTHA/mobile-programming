@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@react-native-firebase/app": "^23.8.6"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "^20.1.1",
+    "@react-native-community/cli-platform-android": "^20.1.1"
+  }
+}
